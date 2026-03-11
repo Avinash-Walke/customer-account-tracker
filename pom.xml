@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.customer.account.tracker</groupId>
-    <artifactId>CUSTOMER_ACCOUNT_TRACKER</artifactId>
+    <artifactId>customer-account-tracker</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Customer Account Tracker</name>
     <description>Microservice to manage customers, accounts, and fund transfer</description>
@@ -168,7 +168,20 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>com.customer.account.tracker.CustomerAccountTrackerApplication</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
