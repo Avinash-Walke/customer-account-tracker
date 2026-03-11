@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:bankdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: DEBUG
