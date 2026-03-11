@@ -1,0 +1,10 @@
+{
+  "firstName": "",
+  "lastName": "",
+  "email": "test",
+  "mobileNumber": "",
+  "accountType": null,
+  "openingBalance": -10.00,
+  "currency": null,
+  "bankName": ""
+}

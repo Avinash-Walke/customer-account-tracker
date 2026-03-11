@@ -1,0 +1,25 @@
+{
+  "accounts": [
+    {
+      "accountNumber": 1,
+      "accountType": "SAVING_INDIVIDUAL",
+      "balance": 300000,
+      "currency": "INR",
+      "customer": {
+        "id": 1,
+        "firstName": "Tony",
+        "lastName": "Stark",
+        "email": "tony@example.com",
+        "mobileNumber": "9000000002",
+        "address": "Malibu",
+        "dob": "1994-05-29"
+      },
+      "accountOpeningDate": "18 Jan 2021, 10:32 am",
+      "accountActive": true,
+      "bankName": "HDFC",
+      "mobileNumber": "9000000002",
+      "deactivatedMessage": null,
+      "deactivatedAt": null
+    }
+  ]
+}

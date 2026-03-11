@@ -1,0 +1,8 @@
+{
+  "accountNumber": 1,
+  "balance": 200.00,
+  "bankName": "HDFC",
+  "mobileNumber": "1234567890",
+  "accountActive": true,
+  "customer": { "firstName": "John", "lastName": "Deo" }
+}
